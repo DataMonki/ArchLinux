@@ -1,0 +1,108 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 930,
+               "width": 1457,
+               "x": 29,
+               "y": 991
+            },
+            "name": "Project — ~/Documents/GitHub — Atom",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^Atom$",
+               "instance": "^atom$",
+               //"title": "^Project\\ \\—\\ \\~\\/Documents\\/GitHub\\ \\—\\ Atom$",
+               "window_role": "^browser\\-window$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            // splitv split container with 1 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 964,
+                       "width": 1604,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "chukwuka@Chernobyl:~",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       "class": "^XTerm$",
+                       "instance": "^xterm$",
+                       "title": "^chukwuka\\@Chernobyl\\" //:\\ //~$
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            // splith split container with 1 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "none",
+                    "current_border_width": 3,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 1521,
+                       "width": 2211,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "GitHub Desktop",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       "class": "^GitHub\\ Desktop$",
+                       "instance": "^github\\ desktop$",
+                       //"title": "^GitHub\\ Desktop$",
+                       "window_role": "^browser\\-window$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
