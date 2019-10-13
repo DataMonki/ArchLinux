@@ -130,4 +130,5 @@ xcorrey python youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.
 "deeplearning.ai 2" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc
 "deeplearning.ai 3" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b
 "deeplearning.ai 4" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
-
+"lex fridman" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
+"Differential Equations" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_
