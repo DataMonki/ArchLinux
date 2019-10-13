@@ -1,0 +1,133 @@
+x "more on pandas" youtube-dl --playlist-start 4 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLbBBc5rkh5riD9r3DFlTzPwtr5_FLjSfP
+
+x "Plotting in R for Biologists" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL-IR12W3BZkXGfIjRtMgAw1Ff0liWX_Aj
+
+x "R quick wins" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLevQaddMWNQzGelY49COHtxh1VRsqR0LP
+
+x "Bash for data analysis" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLevQaddMWNQyWW-xbu5WXqwgEV20ydVut
+
+x Data science fot biologists- youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLMiyQ6EW11_lJT2YKm7kz_Uaa7M0LbBkP
+youtube-dl --playlist-start 28 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLMiyQ6EW11_lJT2YKm7kz_Uaa7M0LbBkP
+
+x Machine learnined explained visual help youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL_Nji0JOuXg2udXfS6nhK3CkIYLDtHNLp
+
+x Descrete math youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS
+
+x calculus I youtube-dl --playlist-start 28 --playlist-end 62 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLHXZ9OQGMqxfT9RMcReZ4WcoVILP4k6-m
+
+calculus II youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLHXZ9OQGMqxc4ySKTIW19TLrT91Ik9M4n
+
+calculus III anaimation youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLmdFyQYShrjd4Qn42rcBeFvF6Qs-b6e-L
+
+x R Basics I youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLtL57Fdbwb_Chn-dNR0qBjH3esKS2MXY3
+
+x R Basics II youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLWPirh4EWFpEvN4ktS8LE0cvLCSfhD55t
+
+x R Basics III youtube-dl --playlist-start 24 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLjgj6kdf_snbifJGg9IXzsMzDC3x52uCh
+x R tedium  youtube-dl --playlist-end 03 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL9ooVrP1hQOHAPQPcVgnVZjbrbKSckiii
+
+x Data Science with R I youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLTJTBoU5HOCRrTs3cJK-PbHM39cwCU0PF
+https://github.com/EasyD/IntroToDataScience.git
+
+x Data Science with R II youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLbj-SN9vF1tPEi-OLB6bKO0AsI4M2b2fz
+
+x Computational Linear Algebra in python youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY
+
+x Doing Data Science youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLJCxPrb5_0ylk7NssyDN-zVZIXi31LwzF
+
+x Bash youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL7B7FA4E693D8E790
+
+x bad_shell youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/watch?v=nVt3Rst-2H8&list=PL7B7FA4E693D8E790
+
+x list comprehenstions youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLH6mU1kedUy8ixEbgmZULZzSPwSLmOAZA
+Tableau youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLWPirh4EWFpGXTBu8ldLZGJCUeTMBpJFK
+
+x "DATA SCIENCE NPTEL" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL15FRvx6P0OWTlNBS_93NHG2hIn9cynVT
+
+x lists youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLR-r0edywujcae8V-vI-Tpa-HUseE-SSn
+x stats102 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV
+
+x git 2 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW
+
+x "Machine Learning — Andrew Ng" youtube-dl --playlist-start 016 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
+"Neural Networks for Machine Learning — Geoffrey Hinton" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLLssT5z_DsK_gyrQ_biidwvPYCRNGI3iv
+
+"Convolutional Neural Networks for Visual Recognition" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+
+"Electronics - Neural Networks and Applications" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3EA65335EAC29EE8
+
+xAlgebra youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_rS8v_Nbifh9uBX2GTgPwcB
+x"Algebra 2" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_r6fSJ7PQJXrze85bXa8oE3
+x Precalculus youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_r80Qkas6hNodS_AKPM0VFM
+x "Calculus: Integration" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_oXcHmmyCsSI3HcyKFj8y4E
+x "Calculus: Derivatives" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_om5O1RBi5-vDRwVTvDwyeV
+x "Calculus: Limits" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_qo9jU6XqmqzQnxivebIWkE
+x Asymptotes youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL3j1ntBPCU_r1cu1t2GGU5ZxNvytQfUEl
+x "Linear Algebra" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLEbnTDJUr_IdiveZ4bvOc1Oh2zEp7J8z6
+x"Statistics with R" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" "https://www.youtube.com/playlist?list=PLqzoL9-eJTNAz0IuV1nAV7KMkGBf4QcQX"
+x Lstats youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL5102DFDC6790F3D0
+x stats101 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLbj-SN9vF1tMLGgmXmWCIypOdHpblnOV8
+xPrealgebra youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL4C9296DF81B9EF13
+xseaborn youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MpNd0_XkEXwzTGPxY2jYM2d
+xwebscraping youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLbj-SN9vF1tM--dIjYw2zdRwWpBjhp1io
+xStatistics in Machine Learning youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLZoTAELRMXVMhVyr3Ri9IQ-t5QPBtxzJO
+algebra0 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLC292123722B1B450
+docker youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/watch?v=zJ6WbK9zFpI
+x"Data Structures and Algorithms" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL9Dk8axBIC8Tr_AfR928n7t7UTtFp5pRC
+x"econometrics 1" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLwJRxp3blEvZyQBTTOMFRP_TDaSdly3gU
+x"econometrics 2" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLwJRxp3blEvb7P-7po9AxuBwquPv75LjU
+x"econometrics 3 Asymptotic Behaviour of Estimators" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLwJRxp3blEvZBAn3bwAAtdJqotRPBWBlP
+x"econometrics 4 factor analysis and SEM" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLwJRxp3blEvaOTZfSKXysxRmi6gXJf5gP
+x"econometrics 5" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLwJRxp3blEvaxmHgI2iOzNP6KGLSyd4dz
+x"Bayesian statistics" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG
+x"Probability Primer" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL17567A1A3F5DB5E4
+x"Information Theory" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLE125425EC837021F
+x              youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0o_zxa4K1BU5sTWZ2YxFhpXwsnMfMke7
+
+x"Python lab 6" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66Mr8d_iYLGjceTxdQrzx548u (https://github.com/sshumiye/Notes)
+xyoutube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MqBLwhY16EUxPLkFr4ch1nF
+xyoutube-dl --playlist-start 04 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MpwANkSO7APA_f0IlnAAeAQ
+xhttps://www.youtube.com/playlist?list=PL998lXKj66MqBLwhY16EUxPLkFr4ch1nF
+
+"Matplotlib and Bokeh" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MpmhBM9HxJo7l5e2-hrr_7G
+
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MqYBraD1mKWYICyhidJAEgX
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MqZ2XoXPelpO9tcgApOzUIE
+"Python lab 6" youtube-dl --playlist-start 29 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL998lXKj66MrJc80jS0E1htuEo5zI-tYG
+"Godot 3" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLS9MbmO_ssyDk79j9ewONxV88fD5e_o5d
+"dart" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q
+"flutter"  youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtubQe.com/playlist?list=PLlxmoA0rQ-Lw6tAs2fGFuXGP13-dWdKsB
+"keras"  (https://github.com/jeffheaton/t81_558_deep_learning) youtube-dl --playlist-start 13 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLjy4p-07OYzulelvJ5KVaT2pDlxivl_BN
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL
+youtube-dl --playlist-start 04 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDDGPdw7e6Aj0amDsYInT_8p6xTSTGEi2
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLhW3qG5bs-L9E2KV6vVdB-YTk-sRxmRAB
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+xcalculus "A" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLF797E961509B4EB5
+xcalculus "B" youtube-dl --playlist-start 15 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-
+xcalculus "C" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7
+calculus "D" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDDGPdw7e6Aj1kTRn-MxD0YVZ-zEL5vBb
+calculus "E" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDDGPdw7e6Ah6w0U4hrERCiUTNQiMfitK
+"New Calculus" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0o_zxa4K1BWYThyV4T2Allw6zY0jEumv
+xDart01 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0iaWPijZ-OfgZVPO4kgS8sL7HF29dKra
+xDart02 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0iaWPijZ-OeOaVTtiAeJLRdwnLMHfrnW
+xDart03 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0iaWPijZ-OdcE0gsLh12R8slO3m59xj_
+xDart04 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0iaWPijZ-OedUA4aNGyxpPaHeiZkVVGx
+xDart05 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0iaWPijZ-OdI59_nJWTb9-7Ec6h7U-Eo
+
+xA-level maths - youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLg2tfDG3Ww4vrstKAZ0dajHx_hq85P0G-
+"Feature Eng" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLbj-SN9vF1tMcmoBpBAZiVGVWxeT8TPbS
+'Kaggle guide' youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLjy4p-07OYzvyN1IzfCFRXiSXhKd0ijhh
+'Kaggle guide' youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/watch?v=dMulLZKm_pg
+'Kaggle projects' youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLZoTAELRMXVPiKOxbwaniXjHJ02bdkLWy
+sweet thing youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/watch?v=JFAp3aRJ2vA
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/watch?v=t_GPid8HYJs
+xPreCalculus youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL4FB17E5C77DCCE69
+xcorrey python youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
+"deeplearning.ai 1" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0
+"deeplearning.ai 2" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc
+"deeplearning.ai 3" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b
+"deeplearning.ai 4" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
+
