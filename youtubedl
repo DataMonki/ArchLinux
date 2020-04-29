@@ -1,3 +1,14 @@
+xautomation_py_01 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLUDwpEzHYYLtKvODzx0XV7BYAtlmz4TeK
+xautomation_py_02 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG
+xautomation_py_03 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLUDwpEzHYYLvMLbma_Rp-6jrrpxkeH0VJ
+xyoutube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGKQkV4guDKH1TpfM-FvPGLUyjsPGdXOg
+xwebscarping youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGKQkV4guDKEKZXAyeLQZjE6fulXHW11y
+xpandas youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGKQkV4guDKEe-TL_ynPiXVHaEN1oT0Nx
+xmultithreading youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGKQkV4guDKEv1DoK4LYdo2ZPLo6cyLbm
+
+youtube-dl -o "%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL-osiE80TeTsnP0Nl1UDY8VZAlHu1m_MQ
+youtube-dl -o "%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLUDwpEzHYYLvxZO0QTnhhTP7OaBzovwW4
+
 x "more on pandas" youtube-dl --playlist-start 4 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLbBBc5rkh5riD9r3DFlTzPwtr5_FLjSfP
 
 x "Plotting in R for Biologists" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL-IR12W3BZkXGfIjRtMgAw1Ff0liWX_Aj
@@ -48,6 +59,7 @@ x lists youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube
 x stats102 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV
 
 x git 2 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW
+
 
 x "Machine Learning — Andrew Ng" youtube-dl --playlist-start 016 -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
 
@@ -133,3 +145,4 @@ xcorrey python youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.
 "deeplearning.ai 5" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLkDaE6sCZn6F6wUI9tvS_Gw1vaFAx6rd6
 "lex fridman" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
 "Differential Equations" youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLFCB5Dp81iNVmuoGIqcT5oF4K-7kTI5vp
