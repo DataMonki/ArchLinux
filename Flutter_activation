@@ -1,0 +1,2 @@
+export PATH="$PATH:`pwd`/flutter/bin"
+export PATH="/home/chukwuka/Development/flutter/bin:$PATH"
