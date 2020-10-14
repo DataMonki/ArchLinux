@@ -6,6 +6,8 @@ xwebscarping youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.yo
 xpandas youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGKQkV4guDKEe-TL_ynPiXVHaEN1oT0Nx
 xmultithreading youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGKQkV4guDKEv1DoK4LYdo2ZPLo6cyLbm
 
+youtube-dl -o "%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLGLfVvz_LVvQy4mkmEvtFwZGg1S38MUmn
+
 youtube-dl -o "%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PL-osiE80TeTsnP0Nl1UDY8VZAlHu1m_MQ
 youtube-dl -o "%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLUDwpEzHYYLvxZO0QTnhhTP7OaBzovwW4
 
