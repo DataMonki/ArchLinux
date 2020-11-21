@@ -1,0 +1,88 @@
+"VirtualBox Machine"
+
+*type: git clone https://aur.archlinux.org/mbr.git
+*then: cd into mbr file 
+*type: gpg --recv-keys 8C004C2F93481F6B
+*type: makepkg
+*type:install-mbr -e12 --force ~/vm.mbr
+
+*sudo chmod 666 /dev/nvme0n1p1
+*sudo chmod 666 /dev/nvme0n1p4
+
+*type: sudo VBoxManage internalcommands createrawvmdk -filename /home/chukwuka/wos/inception.vmdk -rawdisk /dev/nvme0n1 -partitions 1,4 -relative -mbr /home/chukwuka/wos/vm.mbr -relative 
+
+sudo chmod 777 inception.vmdk
+sudo chmod 777 inception-pt.vmdk
+
+sudo chmod 777 vm.mbr
+
+sudo chown chukwuka: inception.vmdk
+sudo chown chukwuka: inception-pt.vmdk
+sudo chown ugo vm.mbr
+
+
+type: sudo vim /etc/udev/rules.d/99-vbox.rules
+
+paste:
+
+______________________________________________________________________________
+
+# Rules to give VirtualBox users raw access to Windows partitions
+
+# Microsoft Reserved partitions (msftres)
+SUBSYSTEM=="block", ENV{ID_PART_ENTRY_TYPE}=="e3c9e316-0b5c-4db8-817d-f92df00215ae", GROUP="vboxusers"
+
+SUBSYSTEM=="block", ENV{ID_PART_ENTRY_TYPE}=="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7", GROUP="vboxusers"
+# Windows partitions (msftdata)
+______________________________________________________________________________
+
+type: sudo VBoxManage internalcommands listpartitions -rawdisk /dev/nvme0n1
+
+
+type: chown user:group /home/chukwuka/wos/inception.vmdk
+type: VBoxManage createmedium disk --filename /home/chukwuka/wos/esp.vmdk --size 512 --format VMDK
+
+?sudo adduser $USER vboxusers
+sudo adduser docker
+
+sudo usermod -a -G vboxusers $USER (adding user vboxusers)
+sudo usermod -a -G docker $USER (adding user docker)
+sudo usermod -aG vboxusers chukwuka
+
+
+
+
+
+type: sudo vim /etc/udev/rules.d/99-vbox.rules
+
+paste: 
+_________________________________________________________________________________________
+
+# Rules to give VirtualBox users raw access to Windows disk
+
+# sdb
+ENV{ID_PART_ENTRY_TYPE}=="07ef9546-05af-444b-b880-803920f8c2fe", GROUP="vboxusers"
+
+__________________________________________________________________________________________
+
+
+
+sudo usermod -aG disk,vboxusers chukwuka
+
+diskpart
+list disk
+select disk 0
+clean
+convert gpt
+create partition efi size=100
+format quick fs=fat32 label="System"
+assign letter="S"
+list volume
+exit
+C:
+cd C:\Windows\System32
+bcdboot C:\Windows /s S: /f UEFI
+
+
+
+
